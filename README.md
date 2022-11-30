@@ -219,6 +219,10 @@ root.txt - 'THM{MY_W0RD_I5_MY_B0ND_IF_I_ACC3PT_YOUR_CONTRACT_THEN_IT_WILL_BE_COM
 Submit the flags
 ```
 
+What is pkexec vulnerability ? 
+-- A vulnerability (CVE-2021-4034) in Polkit's pkexec has been weaponized in the wild. This vulnerability is present in the default configuration of all major Linux distributions and can be exploited to gain full root privileges on the system.
+
+
 I hope this was helpful.
 
 thanks.
