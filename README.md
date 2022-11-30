@@ -3,7 +3,7 @@
 Room link : https://tryhackme.com/room/lianyu
 
 
-# Scanning the IP
+# 1. Scanning the IP
   
   ```bash
   nmap -sC -sV 10.10.228.22 
@@ -19,7 +19,7 @@ port 80/tcp - HTTP - (Apache httpd)
 port 111/tcp - RPC - (rpcbind) 
 ```
 
-# Enumeration
+# 2. Enumeration
 
 ```bash
 Visit the IP 
@@ -99,7 +99,7 @@ Use 'FromBase58' to decode it.
 Seems like we have cracked it : '!#th3h00d' - This is the FTP Password.
 ```
 
-# Now the FTP Login
+# 3. Now the FTP Login
 
 ```bash
 Now as we have the username and passowrd ---
@@ -187,7 +187,7 @@ user.txt
 user.txt - 'THM{P30P7E_K33P_53CRET5__C0MPUT3R5_D0N'T}'
 ```
 
-# Root Privilege Escalation
+# 4. Root Privilege Escalation
 
 ```bash
 To find which commands we can run with root privileges we can run: ---
