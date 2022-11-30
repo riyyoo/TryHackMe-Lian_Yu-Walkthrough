@@ -57,7 +57,7 @@ gobuster dir -u http://10.10.228.22/island -w/usr/share/wordlists/dirbuster/dire
 ![2100](https://user-images.githubusercontent.com/119054834/204708983-f9f739b5-3547-4520-a4a7-9aa0f4c571f7.png)
 
 ```bash
-Here we found another directory : /2100
+Here we found another directory : /2100 -- (What is the Web Directory you found?)
 ```
 
 ```bash
@@ -82,7 +82,7 @@ gobuster dir --url 10.10.228.22/island/2100 --wordlist /usr/share/wordlists/dirb
 ![green ticket](https://user-images.githubusercontent.com/119054834/204712070-d4d4d78d-b2e3-469b-9aba-5c60d55f9896.png)
 
 ```bash
-Found another director : /green_arrow.ticket
+Found another director : /green_arrow.ticket -- (what is the file name you found?)
 ```
 ```bash 
 Again going to the browser search http://10.10.228.22/island/2100/green_arrow.ticket.
@@ -99,7 +99,7 @@ Use 'FromBase58' to decode it.
 ![hash](https://user-images.githubusercontent.com/119054834/204713677-f62752e5-e6f0-4133-a829-2134dac5a3b2.png)
 
 ```bash
-Seems like we have cracked it : '!#th3h00d' - This is the FTP Password.
+Seems like we have cracked it : '!#th3h00d' - This is the FTP Password. -- (what is the FTP Password?)
 ```
 
 # 3. Now the FTP Login
@@ -161,7 +161,7 @@ We found a  a 'passwd.txt' and a 'shado file' unzipping the ss.zip file.
 ![m3ta](https://user-images.githubusercontent.com/119054834/204744274-0025a238-5b73-462f-8af3-0d27b94f0b46.png)
 
 ```bash
-Now cat 'shado' file and you get a password : 'M3tahuman' -- (ssh password)
+Now cat 'shado' file and you get a password : 'M3tahuman' -- (ssh password) --- (what is the file name with SSH password?)
 ```
 ![mt](https://user-images.githubusercontent.com/119054834/204745041-4fae5e35-7b71-4ab5-9b91-2b037dc0faf8.png)
 
