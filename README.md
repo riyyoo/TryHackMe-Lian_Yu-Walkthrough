@@ -27,7 +27,8 @@ Visit the IP
 ![ipvisit](https://user-images.githubusercontent.com/119054834/204705444-427b5bd9-cf36-4f4c-b4d7-aff2af9cd883.png)
   ```bash
 Now run gobuster for hidden Directories.
-
+```
+```bash
 gobuster dir -u http://10.10.228.22/ -w/usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt
 ```
 ![hidden dr](https://user-images.githubusercontent.com/119054834/204705829-a864fe7c-5d5a-41c3-9633-4c4911aadc30.png)
@@ -74,7 +75,8 @@ Here it says there is a file with a '.ticket' extension.
 ```
 ```bash
 Now again run gobuster o look for files with a '.ticket' extension.
-
+```
+```bash
 gobuster dir --url 10.10.228.22/island/2100 --wordlist /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x .ticket 
 ```
 ![green ticket](https://user-images.githubusercontent.com/119054834/204712070-d4d4d78d-b2e3-469b-9aba-5c60d55f9896.png)
@@ -105,7 +107,7 @@ Seems like we have cracked it : '!#th3h00d' - This is the FTP Password.
 ```bash
 Now as we have the username and passowrd ---
 Username - vigilante
-password -!#th3h00d
+password - !#th3h00d
 
 We can log in to the FTP service - 
 ```
@@ -163,7 +165,7 @@ Now cat 'shado' file and you get a password : 'M3tahuman' -- (ssh password)
 ```
 ![mt](https://user-images.githubusercontent.com/119054834/204745041-4fae5e35-7b71-4ab5-9b91-2b037dc0faf8.png)
 
-# SSH Login
+# 4. SSH Login
 
 ```bash
 Now as we have got the ssh password we can now login -- 
@@ -188,7 +190,7 @@ user.txt
 user.txt - 'THM{P30P7E_K33P_53CRET5__C0MPUT3R5_D0N'T}'
 ```
 
-# 4. Root Privilege Escalation
+# 5. Root Privilege Escalation
 
 ```bash
 To find which commands we can run with root privileges we can run: ---
