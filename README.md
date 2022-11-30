@@ -48,7 +48,7 @@ Code Word -  'vigilante' - (this is our FTP username)
 ```
 
 ```bash
-Again run gobuster on /island directory for discover a different directory.
+Again run gobuster on /island directory to discover a different directory.
 
 gobuster dir -u http://10.10.228.22/island -w/usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt
 ```
