@@ -74,7 +74,7 @@ View the page source --
 Here it says there is a file with a '.ticket' extension.
 ```
 ```bash
-Now again run gobuster o look for files with a '.ticket' extension.
+Now again run gobuster to look for files with a '.ticket' extension.
 ```
 ```bash
 gobuster dir --url 10.10.228.22/island/2100 --wordlist /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x .ticket 
