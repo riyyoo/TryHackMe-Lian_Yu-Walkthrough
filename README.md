@@ -222,6 +222,7 @@ Submit the flags
 What is pkexec vulnerability ? 
 
 -- A vulnerability (CVE-2021-4034) in Polkit's pkexec has been weaponized in the wild. This vulnerability is present in the default configuration of all major Linux distributions and can be exploited to gain full root privileges on the system.
+Red Hat is aware of a vulnerability found in pkexec that allows an authenticated user to perform a privilege escalation attack.
 
 
 I hope this was helpful.
